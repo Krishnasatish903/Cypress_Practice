@@ -1,2 +1,0 @@
-1. Totally deleted all the content in this file from VS Code
-2. Pusing from VSCode to make sure we have push access from local to remote repo
