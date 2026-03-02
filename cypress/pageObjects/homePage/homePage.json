@@ -1,0 +1,6 @@
+{
+    "radio1Btn": "[value='radio1']",
+    "radio2Btn": "[value='radio2']",
+    "radio3Btn": "[value='radio2']",
+    "countriesList": "[placeholder='Type to Select Countries']"
+}
