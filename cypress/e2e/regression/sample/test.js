@@ -1,5 +1,5 @@
 
-import { clickAction, radioBtnSelected, suggestionListDropDown, verifyText } from "../../../utilities/genericUtilities";
+import { clickAction, newWindoHandle, radioBtnSelected, suggestionListDropDown, verifyText } from "../../../utilities/genericUtilities";
 import{radio1Btn, countriesList} from "../../../pageObjects/homePage/homePage.json"
 import {radio1} from "../../../testData/homepageData/homePageData.json"
 
@@ -11,7 +11,7 @@ cy.visit("https://rahulshettyacademy.com/AutomationPractice/");
 clickAction({locator: radio1Btn});
 radioBtnSelected({locator: radio1Btn});
 suggestionListDropDown({locator: countriesList, value: "Ind", exactText: "India"})
-
+newWindoHandle({locator: "#opentab"});
 
 })
 
